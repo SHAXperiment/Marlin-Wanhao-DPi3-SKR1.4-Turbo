@@ -1,3 +1,18 @@
+# Marlin 2.0.5.4 Stable Branch for Wanhao Duplicator i3 (Mainboard BTT SKR 1.4 Turbo)
+Firmware Marlin for Wanhao Duplicator i3 with SKR 1.4 Turbo and RepRap Full Graphics Display
+
+X-Axis: TMC2209 (Sensorles Homing)
+Y-Axis: TMC2209 (Sensorles Homing)
+Z-Axis: TMC2209 with BL Touch
+Extruder: A4498
+
+With the version 2.0.5.3 i had several issues with the axis and the calculation of the steps. This issue is resolved with 2.0.5.4!
+
+I also added BL Touch with bilnear leveling (3x3).
+
+I used Visual Studio Code with Platform IO to compile and then put the firmware.bin on the SD-Card.
+Put it into the mainboard (SKR 1.4 Turbo not Melzi!) and it updates the firmware on the next start.
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
